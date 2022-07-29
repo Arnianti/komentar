@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #2798bb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    background: #fff;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.wrapper .form input {
+    background:#c1e6f1 ;
+    color: rgb(29, 25, 25);
+    font-size: 15px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top:20px ;
+}
+.wrapper .form textarea {
+    background:#c1e6f1 ;
+    color: rgb(32, 29, 29);
+    font-size: 15px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.wrapper .form .btn {
+    background:#c1e6f1 ;
+    color: rgb(110, 106, 106);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    transition: 0.3s all ease;
+}
+.wrapper .form .btn:hover {
+    opacity: 1;
+}
+.content {
+    
+    text-align: center;
+    background: royalblue;
+    color: #fff;
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
